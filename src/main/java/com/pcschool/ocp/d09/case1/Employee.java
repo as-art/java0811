@@ -22,7 +22,7 @@ public class Employee {
    
       private class Study {
         public void read() {
-            final String appName = "美食 App";
+             String appName = "美食 App"; //java 7要加上 final, Java 8 不用系統判別
             int hours = 60;
             hours = 50;
             System.out.println("進修時間:" + hours + " H");
