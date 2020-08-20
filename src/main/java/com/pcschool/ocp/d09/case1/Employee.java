@@ -7,6 +7,11 @@ public class Employee {
         public void program(){
           String name = ("寫程式");
          System.out.println(name + ":" + this.name);
+         Study study = new Study();
+         study.read();
+         
+         
+         
             }
         public  void meeting(){
             System.out.println("開會");
@@ -15,11 +20,28 @@ public class Employee {
         
     }
    
-    class Study{
-        public  void read(){
-            System.out.println("進修");
+      private class Study {
+        public void read() {
+            final String appName = "美食 App";
+            int hours = 60;
+            hours = 50;
+            System.out.println("進修時間:" + hours + " H");
+        
+            class App {
+                public void printName() {
+                    System.out.println(appName);
+                   
+               }
+                
+            }
+            App app = new  App();
+            app.printName();
             
         }
+       
+        
+        
+        
         
     }
 

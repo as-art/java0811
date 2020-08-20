@@ -6,10 +6,10 @@ public class Company {
         Employee emp = new Employee();
         Employee.Job job = emp.new Job();
         job.program();
-        job.program();
+        job.meeting();
         
-        Employee.Study study = emp.new Study();
-        study.read();
+        //Employee.Study study = emp.new Study();
+        //study.read();
         
     }
 }
